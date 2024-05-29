@@ -58,6 +58,20 @@ public class Menu {
         return lectura.nextInt();
     }
 
+    public void menuContinuar (){
+        int opcionContinuar = lectura.nextInt();
+        switch (opcionContinuar){
+            case 1:
+                break;
+            case 2:
+                mensaje.salir();
+                break;
+            default:
+                mensaje.opcionNoValida();
+                break;
+        }
+    }
+
     public void limpiarLectura(){
         lectura.next();
     }

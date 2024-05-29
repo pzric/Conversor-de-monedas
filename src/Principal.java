@@ -12,7 +12,6 @@ public class Principal {
         Mensajes mensaje = new Mensajes();
         RegistroConsultas registroConsultas = new RegistroConsultas();
         int opcion = 0;
-        int opcionContinuar;
 
         while (opcion != 3) {
             mensaje.bienvenida();
@@ -31,25 +30,21 @@ public class Principal {
                         double monto = menu.monto();
 
                         double tasaDeConversion = consultaDivisa.buscaDivisa(divisaOrigen, divisaDestino);
-
                         mensaje.cabeceraResultado();
-
                         String resultado = mensaje.resultadoMensaje(divisaOrigen, divisaDestino, tasaDeConversion, monto);
                         System.out.println(resultado);
 
                         registroConsultas.almacenarConsulta(resultado);
 
                         mensaje.opcionesContinuar();
-                        opcionContinuar = menu.opcion();
-                        mensaje.opcionesContinuar(opcionContinuar);
+                        menu.menuContinuar();
                         break;
                     case 2:
                         mensaje.cabeceraHistorial();
                         registroConsultas.leerConsultas();
 
                         mensaje.opcionesContinuar();
-                        opcionContinuar = menu.opcion();
-                        mensaje.opcionesContinuar(opcionContinuar);
+                        menu.menuContinuar();
                         break;
                     case 3:
                         mensaje.salir();

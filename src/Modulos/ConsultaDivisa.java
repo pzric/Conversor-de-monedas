@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 
 public class ConsultaDivisa {
     public double buscaDivisa(String divisaOrigen, String divisaDestino){
-        String apiKey = "da76ca1e9689ed36f4618983";
+        String apiKey = " ";
         String direccion = "https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + divisaOrigen;
         HttpClient cliente = HttpClient.newHttpClient();
         HttpRequest solicitud = HttpRequest.newBuilder()

@@ -75,19 +75,6 @@ public class Mensajes {
         System.out.println(opciones);
     }
 
-    public void opcionesContinuar (int opcionContinuar){
-        switch (opcionContinuar){
-            case 1:
-                break;
-            case 2:
-                salir();
-                break;
-            default:
-                opcionNoValida();
-                break;
-        }
-    }
-
     public void salir(){
         System.out.println("Finalizando el programa.");
         System.exit(0);
