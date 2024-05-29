@@ -25,7 +25,7 @@ _Lista de las divisas soportadas por el sistema de conversion._
 
 
 ## Construido con 🛠️
-* [Java JDK](https://www.oracle.com/br/java/technologies/downloads/) - Java JDK: versión 11
+* [Java JDK](https://www.oracle.com/br/java/technologies/downloads/) - Java JDK: versión 17
 
 ## Autores ✒️
 * **Ricardo Zamora Picazo** - [Ricardo ZP](https://github.com/pzric)
