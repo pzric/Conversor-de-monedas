@@ -18,10 +18,12 @@ _Generar una KEY en [ExchangeRate-API](https://www.exchangerate-api.com/)_
 
 
 ### Galeria 📌
-Mensaje de bienvenida y menu principal.
+_Mensaje de bienvenida y menu principal._
+
 ![Mensaje de bienvenida](img/inicio.png)
 
-Lista de las divisas soportadas por el sistema de conversion.
+_Lista de las divisas soportadas por el sistema de conversion._
+
 ![Lista de divisas](img/lista-divisas.png "Lista de divisas")
 
 
