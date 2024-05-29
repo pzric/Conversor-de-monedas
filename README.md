@@ -9,12 +9,9 @@ _Realiza solicitudes a una API de tasas de cambio, manipula datos JSON, filtra y
 
 ### Pre-requisitos 📋
 
-_Importar la biblioteca Gson en el entorno de desarrollo_
+* _Importar la biblioteca [Gson](https://central.sonatype.com/artifact/com.google.code.gson/gson?smo=true) en el entorno de desarrollo_
 
-```
-gson-2.20.1.jar
-```
-_Generar una KEY en [ExchangeRate-API](https://www.exchangerate-api.com/)_
+* _Generar una KEY en [ExchangeRate-API](https://www.exchangerate-api.com/)_
 
 
 ### Galeria 📌
